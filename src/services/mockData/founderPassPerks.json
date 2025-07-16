@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "title": "Hosting Credit Bundle",
+    "description": "Get $500 in hosting credits across top providers including AWS, DigitalOcean, and Vercel. Perfect for launching your domain with professional hosting.",
+    "couponCode": "NAMEFAST500",
+    "link": "https://founderpass.com/hosting",
+    "category": "Hosting"
+  },
+  {
+    "Id": 2,
+    "title": "Logo Design Suite",
+    "description": "Access premium logo design tools and templates worth $300. Create professional branding that matches your new domain perfectly.",
+    "couponCode": "LOGO300",
+    "link": "https://founderpass.com/design",
+    "category": "Design"
+  },
+  {
+    "Id": 3,
+    "title": "Marketing Automation",
+    "description": "6 months free of premium marketing automation tools including email marketing, social media scheduling, and analytics platforms.",
+    "couponCode": "MARKET6M",
+    "link": "https://founderpass.com/marketing",
+    "category": "Marketing"
+  },
+  {
+    "Id": 4,
+    "title": "Business Templates",
+    "description": "Complete collection of legal templates, business plans, and startup documents worth $400. Get your business documentation ready.",
+    "couponCode": "BIZTEMPL",
+    "link": "https://founderpass.com/legal",
+    "category": "Legal"
+  },
+  {
+    "Id": 5,
+    "title": "Analytics & SEO Tools",
+    "description": "Premium access to SEO and analytics tools for 12 months. Track your domain's performance and optimize for search engines.",
+    "couponCode": "SEO12M",
+    "link": "https://founderpass.com/analytics",
+    "category": "Analytics"
+  },
+  {
+    "Id": 6,
+    "title": "Payment Processing",
+    "description": "Reduced payment processing fees and premium features on major payment platforms. Save on every transaction.",
+    "couponCode": "PAYMENTS",
+    "link": "https://founderpass.com/payments",
+    "category": "Payments"
+  },
+  {
+    "Id": 7,
+    "title": "Cloud Storage",
+    "description": "1TB of premium cloud storage across multiple providers for 2 years. Keep your domain assets and business files secure.",
+    "couponCode": "CLOUD1TB",
+    "link": "https://founderpass.com/storage",
+    "category": "Storage"
+  },
+  {
+    "Id": 8,
+    "title": "CRM & Communication",
+    "description": "Premium CRM software and team communication tools for growing businesses. Manage customer relationships effectively.",
+    "couponCode": "CRM12M",
+    "link": "https://founderpass.com/crm",
+    "category": "CRM"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "domainId": 1,
+    "buyerId": "buyer-123",
+    "amount": 2500,
+    "status": "completed",
+    "transferStatus": "completed",
+    "purchaseDate": "2024-01-16T15:30:00Z"
+  },
+  {
+    "Id": 2,
+    "domainId": 2,
+    "buyerId": "buyer-456",
+    "amount": 1800,
+    "status": "completed",
+    "transferStatus": "in-progress",
+    "purchaseDate": "2024-01-18T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "domainId": 3,
+    "buyerId": "buyer-789",
+    "amount": 3200,
+    "status": "processing",
+    "transferStatus": "awaiting-action",
+    "purchaseDate": "2024-01-20T14:20:00Z"
+  },
+  {
+    "Id": 4,
+    "domainId": 4,
+    "buyerId": "buyer-321",
+    "amount": 2800,
+    "status": "completed",
+    "transferStatus": "completed",
+    "purchaseDate": "2024-01-12T09:45:00Z"
+  },
+  {
+    "Id": 5,
+    "domainId": 5,
+    "buyerId": "buyer-654",
+    "amount": 1500,
+    "status": "processing",
+    "transferStatus": "initiated",
+    "purchaseDate": "2024-01-22T11:30:00Z"
+  }
+]
