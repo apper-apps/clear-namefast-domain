@@ -47,6 +47,59 @@
     @apply bg-gradient-primary bg-clip-text text-transparent;
   }
 }
+/* Image error handling and fallback utilities */
+@layer utilities {
+  .image-fallback {
+    @apply bg-gradient-to-br from-surface-100 to-surface-200 flex items-center justify-center text-surface-500 relative overflow-hidden;
+  }
+  
+  .image-fallback::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-surface-100 to-surface-200 opacity-50;
+  }
+  
+  .image-fallback::after {
+    content: '🖼️';
+    @apply text-2xl opacity-60 z-10 relative;
+  }
+  
+  .image-loading {
+    @apply bg-surface-200 animate-pulse;
+  }
+  
+  .image-error {
+    @apply bg-surface-100 border-2 border-dashed border-surface-300 flex items-center justify-center text-surface-400 text-sm;
+  }
+}
+
+/* Global image error handling */
+img {
+  @apply transition-opacity duration-200;
+}
+
+img[src=""], img:not([src]), img[src="#"] {
+  @apply opacity-0 invisible;
+}
+
+/* Responsive image containers */
+.responsive-image-container {
+  @apply relative overflow-hidden bg-surface-100;
+}
+
+.responsive-image-container img {
+  @apply w-full h-full object-cover transition-all duration-300;
+}
+
+.responsive-image-container img:not([src]),
+.responsive-image-container img[src=""],
+.responsive-image-container img[src="#"] {
+  @apply opacity-0;
+}
+
+.responsive-image-container::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-br from-surface-100 to-surface-200 flex items-center justify-center;
+}
 
 /* Toast customization */
 .Toastify__toast-container {
